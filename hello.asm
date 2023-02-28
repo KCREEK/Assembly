@@ -18,4 +18,4 @@ _start:
         ;exiting a file
         mov rax, 60
         mov rdi, 0
-        sycall
+        syscall
